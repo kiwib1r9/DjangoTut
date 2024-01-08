@@ -22,3 +22,7 @@ def details(request,id):
 def main(request):
     template = loader.get_template('main.html')
     return HttpResponse(template.render())
+
+def teste(request):
+    template = loader.get_template('teste.html')
+    return HttpResponse(template.render())
